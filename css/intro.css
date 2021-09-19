@@ -1,0 +1,45 @@
+.intro {
+    width: 100%;
+    background-color: var(--bg-intro);
+    color: var(--white);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.intro p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.intro .button {
+    width: 21.8rem;
+    height: 3.1rem;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--white);
+    border-radius: .3rem;
+}
